@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>生日快乐 要快乐啊</title>
+    <link rel="shortcut icon" href="./favicon.ico" />
+
+</head>
+<style>
+    * {
+        margin: 12px auto;
+        padding: 0;
+    }
+
+    div {
+        width: 800px;
+        height: 500px;
+        margin: 20px auto;
+    }
+
+    body {
+        background-color: rgb(209, 147, 158);
+    }
+
+    .word {
+        display: none;
+    }
+</style>
+
+<body>
+
+    <div>
+        <h1 style="text-align: center; margin-top: 50px;">HAPPY BIRTHDAY</h1>
+        <video id="MyVideo" src="./movie .mp4" autoplay  controls
+            style="width:100%;display:block;margin: 100px auto;height:auto"></video>
+    </div>
+    <!-- <div class="word" id="word">
+        <p style="font-size: 25px; color: black; margin-top: 150px;"> &emsp;&nbsp;找到自己喜欢的
+            自己热爱的,可能路上会起起伏伏,但是坚持下去肯定会有回报,都说年轻是最大资本,这个资本并不是一直都在,好好发挥出它的价值。</p>
+        <p style="font-size: 25px; color: black; float: right;">------易烊千玺</p>
+    </div> -->
+</body>
+<script>
+    myVid = document.getElementById("MyVideo");
+    // word = document.getElementById("word");
+    myVid.addEventListener('ended', function () {
+         
+        // word.classlist.remove('word');
+        window.location.href=" https://paocai5534.github.io/my.github.io/cake/BirthdayCake";
+
+    });
+</script>
+
+</html>
